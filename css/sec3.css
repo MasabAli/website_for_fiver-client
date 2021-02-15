@@ -1,0 +1,151 @@
+#shom{
+ width: 40%;
+ height: 35%;
+ 
+}
+.column-60 {
+  float: right;
+  width: 60%;
+  padding: 0 4%;
+}
+  
+  .column-40 {
+    float: left;
+    padding: 0 4%;
+    width: 40%;
+  }
+  
+  .grid::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 1000px) {
+    .column-60,
+    .column-40 {
+      width: 100%;
+      float: none;
+      padding: 0;
+    }
+    .image-div img {
+      margin: auto;
+    }
+  }
+  #features {
+    text-align: center;
+    background-color: #EEEEEE;
+    line-height: 1.4em;
+    width: 100%;
+    margin-top: -1.4%;
+    
+   
+   
+    
+   
+
+
+   
+  }
+  
+  .card{
+    padding-top: -150%;
+    line-height: 1.4em;
+    text-align: center;
+    resize: none;
+    background-color: #EEEEEE;
+    border-radius: 0;
+  }
+  
+  
+  
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  background-color: #004B87;
+  height: 3rem;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  outline:none;
+  width: 9rem;
+  margin-top: 1.5rem;
+  
+  text-align: center;
+}
+.card-text{
+  
+}
+
+.btn:hover {
+  background-color: #136fbb;
+  transition: background-color 0.5 s;
+}
+.features{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .features card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 1.5rem;
+    padding: 3rem 2rem 3rem 2rem;
+    
+    
+  }
+  .card-img-top{
+    width: 15%;
+    align-self: center;
+    padding-top: 2%;
+  }
+  
+    
+    
+    .card {
+      width: 100%;
+      margin: 1.5rem auto;
+      
+    }
+  .features,body { 
+     height: 20%; 
+    margin: 0; 
+  } 
+  .grid2x2 {
+     /* max-height: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  #imgry{
+    background-color:#EEEEEE;
+    margin-top: 1%;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    
+    
+  }
+  .imgsecd{
+    max-width: 80%;
+    max-height: 30%;
+  }
+      
+  
+  
